@@ -13,7 +13,7 @@ class ChatScreen extends StatefulWidget {
 
 class _ChatScreenState extends State<ChatScreen> {
 
-@override
+  @override
   void initState() {
     final fbm = FirebaseMessaging();
     fbm.requestNotificationPermissions();
@@ -30,7 +30,7 @@ class _ChatScreenState extends State<ChatScreen> {
     super.initState();
   }
 
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
